@@ -1,0 +1,1564 @@
+[
+  [
+    [
+      "giết hillock",
+      "vào areaid1_1_town ;; vọng canh của lioneye"
+    ],
+    [
+      "(img:quest) tarkleigh: <enemy_at_the_gate>",
+      "vào areaid1_1_2 ;; bờ biển"
+    ],
+    [
+      "leaguestart: kích hoạt (img:waypoint)",
+      "vào areaid1_1_3 ;; bãi bùn"
+    ],
+    [
+      "theo dòng suối tìm (img:quest) (quest:3_glyphs)",
+      "vào (img:quest) areaid1_1_4_1 ;; lối đi ngập nước"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_1_2 ;; bờ biển",
+        "vào areaid1_1_2a ;; đảo thủy triều"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "đi theo phía (img:6) của tường",
+        "(hint)__ thấy bờ nhô? đi theo phía (img:2)",
+        "giết hailrake lấy (quest:chest) (lvl:4)",
+        "(color:cc99ff)relog: areaid1_1_town ;; vọng canh của lioneye"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) tarkleigh: <breaking_some_eggs1>, <breaking_some_eggs2>",
+        "(img:quest) nessa: <mercy_mission>",
+        "(img:waypoint) tới areaid1_1_4_1 ;; lối đi ngập nước"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "tìm cây cầu hoặc (img:arena) depths, đặt (img:portal)",
+        "qua cầu, vào areaid1_1_5 ;; bờ vách đá"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(color:ff00ff)buy_gems tại (img:hideout) (color:fec076)your_hideout || lilly: <mercy_mission>, <breaking_some_eggs1>, <breaking_some_eggs2> ;; chỉ hiện khi có pob import",
+        "tìm cây cầu hoặc (img:arena) depths, đặt (img:portal)",
+        "qua cầu, vào areaid1_1_5 ;; bờ vách đá"
+      ]
+    },
+    [
+      "đi theo tường tới areaid1_1_6 ;; chỗ trèo",
+      "(hint)__ đường an toàn hơn: đi theo vách đá"
+    ],
+    [
+      "đi theo mép tới areaid1_1_7_1 ;; nhà tù dưới"
+    ],
+    [
+      "(img:waypoint) về areaid1_1_town (img:town) ;; vọng canh của lioneye",
+      "vào (img:portal): areaid1_1_4_1 ;; lối đi ngập nước"
+    ],
+    [
+      "tìm & vào areaid1_1_4_0 ;; vực ngập nước",
+      "(hint)__ (img:6) hoặc (img:1) trước cầu, hiếm khi (img:3)"
+    ],
+    [
+      "tìm & giết dweller (essence)",
+      "(hint)__ (img:arena) điểm bắt đầu & arena:dweller : ở góc đối diện",
+      "(color:cc99ff)relog: areaid1_1_town ;; vọng canh của lioneye"
+    ],
+    [
+      "(img:quest) tarkleigh: (quest:book)",
+      "(img:quest) nessa: <the_caged_brute1>",
+      "(img:waypoint) tới areaid1_1_7_1 ;; nhà tù dưới"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "(hint)__ thường ở (img:1) trong khu vực",
+      "vào areaid1_1_7_2 ;; nhà tù trên"
+    ],
+    [
+      "tùy chọn: tìm chemist's strongbox",
+      "(hint)__ có thể rơi quicksilver flask",
+      "giết brutus (lvl:8-10)",
+      "(color:cc99ff)relog: areaid1_1_town ;; vọng canh của lioneye"
+    ],
+    [
+      "(img:quest) tarkleigh: <the_caged_brute2>",
+      "tùy chọn: dư quicksilver? (color:cc99ff)vendor:",
+      "(hint)__ qs-flask + aug + (ms) boots",
+      "(img:waypoint) tới areaid1_1_8 ;; cổng tù nhân"
+    ],
+    [
+      "mép dẫn gần đường dẫn tới lối đi",
+      "đi theo tường tới areaid1_1_9 ;; nghĩa địa tàu"
+    ],
+    [
+      "đi theo tường, (color:ff00ff)tìm 2 (img:arena) lối ra:",
+      "(hint)_ - nếu (img:arena) hang_cơn_thịnh_nộ trước: (img:in-out2) (color:ffffff)để lấy (img:waypoint)",
+      "(hint)_ - nếu không: đặt (img:portal) || vào (img:arena) hang, (img:waypoint) về (img:town)",
+      "(vào (img:portal) ,) vào areaid1_1_9a ;; hang nghĩa địa tàuđi theo tường, tìm (img:arena) (color:99ccff)hang & (img:arena) động :"
+    ],
+    [
+      "tìm (img:quest) (quest:slave_girl) để lấy (quest:allflame)",
+      "(hint)_ - (img:arena) điểm bắt đầu & (quest:girl) : ở góc đối diện",
+      "vào areaid1_1_9 ;; nghĩa địa tàu"
+    ],
+    [
+      "giết fairgraves",
+      "(color:cc99ff)relog: areaid1_1_town ;; vọng canh của lioneye"
+    ],
+    [
+      "(img:quest) bestel: (quest:book)",
+      "(img:quest) nessa: <the_siren's_cadence>",
+      "(img:waypoint) tới areaid1_1_11_1 ;; hang cơn thịnh nộ"
+    ],
+    [
+      "tìm & vào areaid1_1_11_2 ;; hang cơn phẫn nộ",
+      "(hint)__ dòng nước chỉ hướng tới nó"
+    ],
+    [
+      "tìm & vào (img:arena) hang merveil (lvl:11-13)",
+      "(hint)__ dòng nước chỉ hướng tới nó",
+      "giết merveil, vào areaid1_2_1 ;; rừng phía nam"
+    ]
+  ],
+  [
+    [
+      "tường dẫn tới areaid1_2_town ;; trại rừng"
+    ],
+    [
+      "đi (img:1) tới areaid1_2_2 ;; cánh đồng cũ"
+    ],
+    [
+      "tùy chọn: (img:quest) (color:8787fe)flask / <belt> : tìm (img:arena) hang, đặt (img:portal) ;; hang",
+      "(hint)__ thường ở gần đường",
+      "theo đường tới areaid1_2_3 ;; ngã tư"
+    ],
+    [
+      "theo đường, lấy (img:waypoint)",
+      "tùy chọn: (img:quest) (color:8787fe)flask / <belt> : (img:waypoint) về (color:fec076)thị trấn (img:town)",
+      "(hint)_ - vào (img:portal) || giết quái trong areaid1_2_2a",
+      "(hint)_ - (color:cc99ff)relog: nói chuyện (img:quest) yeena",
+      "đi (img:7) tới areaid1_2_6_1 ;; đền tội lỗi tầng 1"
+    ],
+    [
+      "vào areaid1_2_6_2 ;; đền tội lỗi tầng 2",
+      "(hint)__ (img:waypoint) ở trung tâm chỉ tới lối ra"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "giết fidelitas (lvl:14-15) || lấy (img:quest) (quest:gem)",
+      "(hint)__ (img:arena) điểm bắt đầu & (color:cc99ff)arena: ở góc đối diện",
+      "(color:cc99ff)relog: areaid1_2_town ;; trại rừng"
+    ],
+    [
+      "(img:quest) greust: <intruders_in_black>",
+      "(img:waypoint) tới areaid1_2_3 ;; ngã tư"
+    ],
+    [
+      "đi (img:3) tới areaid1_2_15 ;; tàn tích fellshrine",
+      "theo đường tới areaid1_2_5_1 ;; hầm mộ tầng 1"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "tìm & vào areaid1_2_5_2 ;; hầm mộ tầng 2",
+      "(hint)__ (img:arena) điểm bắt đầu & (img:arena) lối ra: ở góc đối diện"
+    ],
+    [
+      "tìm (img:quest) (quest:altar), lấy (quest:golden_hand)",
+      "(hint)__ (img:arena) điểm bắt đầu & (quest:altar): ở góc đối diện",
+      "(color:cc99ff)relog: areaid1_2_town ;; trại rừng"
+    ],
+    [
+      "(img:quest) yeena: (quest:book)",
+      "đi (img:5) tới areaid1_2_7 ;; con đường sông"
+    ],
+    [
+      "theo đường, lấy (img:waypoint)",
+      "theo đường tới areaid1_2_9 ;; rừng phía tây"
+    ],
+    [
+      "theo đường, lấy (img:waypoint)",
+      "vào areaid1_2_10 ;; phòng thợ dệt",
+      "(hint)__ tìm phía không có (img:waypoint)"
+    ],
+    [
+      "giết weaver lấy (quest:spike) (lvl:16)",
+      "(hint)__ đi (img:6). nếu bị chặn, đi (img:2) / (img:1)",
+      "(color:cc99ff)relog: areaid1_2_town ;; trại rừng"
+    ],
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:quest) silk: <sharp_and_cruel>",
+        "(img:waypoint) tới areaid1_2_3 ;; ngã tư"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "đi (img:1) tới areaid1_2_4 ;; cầu gãy"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "theo đường",
+        "tùy chọn: đồ trang sức + 3 rogue exiles",
+        "(hint)__ tìm tàn tích gần (img:waypoint)",
+        "giết kraityn lấy (quest:amulet)",
+        "(color:cc99ff)relog: areaid1_2_town ;; trại rừng"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:quest) silk: <sharp_and_cruel>",
+        "(img:waypoint) tới areaid1_2_7 ;; con đường sông"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_2_7 ;; con đường sông"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "theo lối mòn giữa 2 cột",
+        "vào areaid1_2_12 ;; đầm lầy"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "giết oak lấy (quest:amulet)",
+        "tìm (img:waypoint): areaid1_2_9 ;; rừng phía tây",
+        "(hint)__ thường (img:7) hoặc (img:1), hiếm khi (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_2_9 ;; rừng phía tây"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "đi (img:4) tới ngọn đuốc trên đường || theo:",
+        "(hint)_ 1) đường phụ: giết alira lấy (quest:amulet)",
+        "(hint)_ 2) đường chính: giết arteri lấy (quest:emblem)",
+        "(img:quest) (quest:seal) || (color:cc99ff)relog: areaid1_2_town ;; trại rừng"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira"
+        ]
+      ],
+      "lines": [
+        "đi (img:4) tới ngọn đuốc trên đường || theo:",
+        "(hint)_ 1) đường phụ: giúp (color:ff8111)alira lấy (quest:apex)",
+        "(hint)_ 2) đường chính: giết arteri lấy (quest:emblem)",
+        "(img:quest) (quest:seal) || (color:cc99ff)relog: areaid1_2_town ;; trại rừng"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none"
+        ]
+      ],
+      "lines": [
+        "(img:quest) eramir: (quest:the_apex)",
+        "(img:waypoint) tới areaid1_1_town (img:town) ;; vọng canh của lioneye"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "alira",
+          "kraityn",
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_1_town (img:town) ;; vọng canh của lioneye"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:quest) bestel: (quest:book)",
+        "(img:waypoint) tới areaid1_2_3 ;; ngã tư"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "đi (img:1) tới areaid1_2_4 ;; cầu gãy"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "theo đường",
+        "tùy chọn: đồ trang sức + 3 rogue exiles",
+        "(hint)__ tìm tàn tích gần (img:waypoint)",
+        "giúp (color:ff8111)kraityn lấy (quest:apex)",
+        "(color:cc99ff)relog: areaid1_1_town ;; vọng canh của lioneye"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "(img:quest) bestel: <the_way_forward>",
+        "(img:waypoint) tới areaid1_2_7 ;; con đường sông"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "theo lối mòn giữa 2 cột",
+        "vào areaid1_2_12 ;; đầm lầy"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "oak"
+        ]
+      ],
+      "lines": [
+        "tìm & giúp (color:ff8111)oak lấy (quest:apex)",
+        "dọn (img:quest) (quest:roots), vào areaid1_2_11 ;; tàn tích vaal",
+        "(hint)__ thường (img:7) hoặc (img:1), hiếm khi (img:5)"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira"
+        ]
+      ],
+      "lines": [
+        "(img:quest) bestel: (quest:book)",
+        "(img:waypoint) tới areaid1_2_12 ;; đầm lầy"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_2_12 ;; đầm lầy"
+      ]
+    },
+    {
+      "condition": [
+        "bandit",
+        [
+          "none",
+          "alira",
+          "kraityn"
+        ]
+      ],
+      "lines": [
+        "dọn (img:quest) (quest:roots), vào areaid1_2_11 ;; tàn tích vaal"
+      ]
+    },
+    [
+      "tìm & vào areaid1_2_8 ;; rừng phía bắc",
+      "(hint)_ - khu vực thường hình chữ s hoặc l",
+      "(hint)_ - hiếm: khu vực xoắn ốc ra ngoài"
+    ],
+    [
+      "mép (img:7) dẫn tới areaid1_2_14_2 ;; các hang động"
+    ],
+    [
+      "tìm & vào areaid1_2_14_3 ;; kim tự tháp cổ đại",
+      "(hint)_ ở góc (img:7) / (img:0) / (img:1) sau (img:waypoint)",
+      "(hint)_ leaguestart: (img:craft) ở góc khác (cửa bí mật)"
+    ],
+    [
+      "tìm (img:arena) đỉnh, giết oversoul (lvl:20-22)",
+      "(hint)__ (img:arena) đầu tiên (color:ffffff)ngẫu nhiên, sau đó ở góc đối diện",
+      "(color:cc99ff)relog || (img:waypoint) tới areaid1_3_1 ;; thành phố sarn"
+    ]
+  ],
+  [
+    [
+      "leaguestart: đi (img:3) lấy (img:craft)",
+      "đi (img:7) để cứu (img:quest) clarissa",
+      "đi (img:5) tới areaid1_3_town ;; trại sarn"
+    ],
+    [
+      "vào areaid1_3_2 ;; khu ổ chuột",
+      "tìm & vào areaid1_3_3_1 ;; lò hỏa táng",
+      "(hint)__ (img:arena) điểm bắt đầu & (img:arena) lối ra: ở góc đối diện"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "giết piety || lấy (img:quest) (quest:bracelet)",
+      "(color:cc99ff)relog: areaid1_3_town ;; trại sarn"
+    ],
+    [
+      "(img:quest) maramoa: <lost_in_love>",
+      "(img:quest) clarissa: (quest:sewer_keys)",
+      "vào areaid1_3_2 ;; khu ổ chuột"
+    ],
+    [
+      "mở (img:quest) (quest:grating) tới areaid1_3_10_1 ;; cống rãnh ;; cống rãnh"
+    ],
+    [
+      "đi (img:7) lấy (img:quest) (quest:bust) || đi (img:1) lấy (img:waypoint)",
+      "tìm (img:quest) (quest:bust), kiểm tra phòng:",
+      "(hint)_ - phòng lớn? (img:quest) (quest:3rd_bust) ở (img:7)",
+      "(hint)_ - phòng nhỏ? (img:quest) (quest:3rd_bust) ở (img:2)",
+      "đi (img:0) tới areaid1_3_5 ;; chợ"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "theo mép (img:0) tới (img:waypoint)",
+        "vào areaid1_3_7 ;; chiến trường",
+        "(hint)__ tìm ở các góc"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "theo mép (img:0) tới (img:waypoint)",
+        "đi (img:0) tới areaid1_3_6 ;; hầm mộ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "hoàn thành (img:lab) thử thách",
+        "(hint)__ (img:arena) điểm bắt đầu & (img:lab): ở góc kế bên1",
+        "(color:cc99ff)relog: areaid1_3_town ;; trại sarn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) hargan: (quest:book)",
+        "(hint)__ nếu lvl 23+: kiểm tra 4-links",
+        "(img:waypoint) tới areaid1_3_5 ;; chợ"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "vào areaid1_3_7 ;; chiến trường",
+        "(hint)__ tìm ở các góc"
+      ]
+    },
+    [
+      "(color:cc99ff)nếu_dưới_lvl_23,_bắt_kịp",
+      "đi (img:7) / (img:6) lấy (img:waypoint) _|| đi (img:5) lấy (img:quest) (quest:spool)",
+      "đi (img:7) / (img:0) tới areaid1_3_9 (lvl:24) ;; bến cảng"
+    ],
+    [
+      "theo mép tìm (img:quest) (quest:sulphite)",
+      "(color:cc99ff)relog: areaid1_3_town ;; trại sarn"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) hargan: (quest:book)",
+        "(img:waypoint) tới areaid1_3_7 ;; chiến trường"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_3_7 ;; chiến trường"
+      ]
+    },
+    [
+      "đi (img:1) / (img:0) tới areaid1_3_8_1 ;; đền solaris tầng 1"
+    ],
+    [
+      "vào areaid1_3_8_2 ;; đền solaris tầng 2"
+    ],
+    [
+      "tìm (img:quest) dialla: <amulet>,  (quest:talc)",
+      "(hint)__ leaguestart: (img:craft) ở (img:arena) phòng bên cạnh bà ấy",
+      "(img:waypoint) tới areaid1_3_10_1 ;; cống rãnh"
+    ],
+    [
+      "đốt (img:quest) (quest:undying_blockage)",
+      "vào areaid1_3_13 ;; doanh trại gỗ mun"
+    ],
+    [
+      "lấy (img:waypoint) || đi (img:7), giết gravicius",
+      "đi (img:7) tới areaid1_3_14_1 ;; đền lunaris tầng 1"
+    ],
+    [
+      "vào areaid1_3_14_2 ;; đền lunaris tầng 2",
+      "(hint)_ - (color:cc99ff)hành lang ban đầu chỉ (img:7) hoặc (img:1)",
+      "(hint)_ - theo thảm và hướng đó"
+    ],
+    [
+      "tìm & giết piety lấy (quest:key) (lvl:27)",
+      "(hint)_ - theo (color:cc99ff)3_cầu_thang_lên + 1 xe ngựa",
+      "(hint)_ - (color:cc99ff)2_cổng_lớn dẫn tới đấu trường của bà",
+      "(hint)_ - leaguestart: (img:craft): phía xa của đấu trường",
+      "(color:cc99ff)relog: areaid1_3_town ;; trại sarn"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) maramoa: <sever_the_right_hand>",
+        "(img:quest) grigor: (quest:book)",
+        "(img:waypoint) tới areaid1_3_13 ;; doanh trại gỗ mun"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) maramoa: <sever_the_right_hand>",
+        "(img:quest) grigor: (quest:book)",
+        "(color:ff00ff)buy_gems tại (img:hideout) (color:fec076)your_hideout || lilly: <a_fixture_of_fate>  ;; chỉ hiện khi có pob import",
+        "(img:waypoint) tới areaid1_3_13 ;; doanh trại gỗ mun"
+      ]
+    },
+    [
+      "đi (img:1) tới areaid1_3_15 ;; vườn hoàng gia"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "theo đường, lấy (img:waypoint)",
+        "đi (img:1) và (img:0) tìm (img:lab) thử thách",
+        "(color:cc99ff)relog: areaid1_3_town ;; trại sarn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:waypoint) tới areaid1_3_15 ;; vườn hoàng gia"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "theo đường (img:7) tới areaid1_3_17_1 ;; thư viện",
+        "quest-check: <a_fixture_of_fate> ;; đây là kiểm tra định tuyến ẩn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "tìm (img:quest) siosa và (img:waypoint)",
+        "vào areaid1_3_17_2 ;; kho lưu trữ",
+        "(hint)__ tìm (color:cc99ff)nến_lỏng",
+        "quest-check: <a_fixture_of_fate> ;; đây là kiểm tra định tuyến ẩn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "tìm 4x (img:quest) (quest:golden_page)",
+        "(hint)__ (img:craft): nến trong hành lang hẹp",
+        "(color:cc99ff)relog: areaid1_3_town ;; trại sarn",
+        "quest-check: <a_fixture_of_fate> ;; đây là kiểm tra định tuyến ẩn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "lấy ít tiền tệ",
+        "(img:waypoint) tới areaid1_3_17_1 ;; thư viện",
+        "quest-check: <a_fixture_of_fate> ;; đây là kiểm tra định tuyến ẩn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) siosa: <a_fixture_of_fate>",
+        "(img:waypoint) tới areaid1_3_15 ;; vườn hoàng gia",
+        "quest-check: <a_fixture_of_fate> ;; đây là kiểm tra định tuyến ẩn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "tùy chọn sớm: (img:lab) mê_cung_thường",
+        "(hint)_ - area-lvl 33 || tùy chọn 2 sau đó",
+        "(hint)_ - (img:waypoint) về (img:town), vào areaidlabyrinth_airlock ;; quảng trường ứng viên",
+        "xe ngựa dẫn tới areaid1_3_18_1 ;; trượng của thần"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "theo đường, lấy (img:waypoint)",
+        "tùy chọn sớm: (img:lab) mê_cung_thường",
+        "(hint)__ area-lvl 33 || tùy chọn 2 sau đó",
+        "xe ngựa dẫn tới areaid1_3_18_1 ;; trượng của thần"
+      ]
+    },
+    [
+      "vào areaid1_3_18_2 ;; trượng thần tầng trên",
+      "(hint)__ (img:arena) cầu thang có thể spawn mỗi 90°"
+    ],
+    [
+      "vào (img:arena) mái_tháp (lvl:28)",
+      "(hint)__ bố cục giống nhau, đi (img:1) sau lồng scion",
+      "giết dominus, vào areaid1_4_1 ;; cống nước"
+    ]
+  ],
+  [
+    [
+      "vào areaid1_4_town (img:town) ;; highgate",
+      "đi (img:5) tới areaid1_4_2 ;; hồ khô"
+    ],
+    [
+      "giết voll lấy (quest:banner) (lvl:30)",
+      "(hint)__ tìm biểu tượng (img:help)",
+      "(color:cc99ff)relog: areaid1_4_town ;; highgate"
+    ],
+    [
+      "vào areaid1_4_3_1 ;; mỏ tầng 1"
+    ],
+    [
+      "leaguestart: tìm (img:craft)",
+      "vào areaid1_4_3_2 ;; mỏ tầng 2"
+    ],
+    [
+      "tìm (img:quest) (quest:deshret)",
+      "(hint)__ kiểm tra phòng/lối đi bên",
+      "vào areaid1_4_3_3 ;; mạch pha lê"
+    ],
+    [
+      "tìm (img:waypoint): areaid1_4_town (img:town) ;; highgate"
+    ],
+    [
+      "(img:quest) tasuni: (quest:book)",
+      "(img:quest) oyun: <breaking_the_seal>",
+      "tùy chọn thường: (img:lab) mê_cung_thường",
+      "(img:waypoint) tới areaid1_4_3_3 ;; mạch pha lê"
+    ],
+    [
+      "vào areaid1_4_5_1 ;; giấc mơ daresso"
+    ],
+    [
+      "tìm & vào areaid1_4_5_2 ;; đấu trường lớn",
+      "(hint)_ - (img:arena) điểm bắt đầu & (img:arena) lối ra: ở góc đối diện",
+      "(hint)_ - đi (img:1) và/hoặc thẳng nếu có thể"
+    ],
+    [
+      "giết daresso lấy (quest:eye)",
+      "(hint)__ đi (img:7) bất cứ khi nào có thể",
+      "(img:portal) về areaid1_4_town"
+    ],
+    [
+      "(img:waypoint) tới areaid1_4_3_3 ;; mạch pha lê",
+      "vào areaid1_4_4_1 ;; giấc mơ kaom"
+    ],
+    [
+      "vào areaid1_4_4_3 ;; pháo đài kaom",
+      "(hint)__ đi (img:1), sau đó theo cầu/cầu thang"
+    ],
+    [
+      "giết kaom lấy (quest:eye) || (img:portal) về areaid1_4_town ;; highgate",
+      "(hint)__ nếu khúc quanh bên phải, đi (img:7). không thì (img:1)"
+    ],
+    [
+      "(img:waypoint) tới areaid1_4_3_3 ;; mạch pha lê",
+      "nói với (img:quest) lady dialla",
+      "vào areaid1_4_6_1 ;; bụng quái vật tầng 1"
+    ],
+    [
+      "vào areaid1_4_6_2 ;; bụng quái vật tầng 2",
+      "(hint)__ đi (img:6) bất cứ khi nào có thể"
+    ],
+    [
+      "giết piety || vào areaid1_4_6_3 ;; mùa gặt",
+      "(hint)_ - thường thì, (img:arena) lối ra ở (img:6) của (img:arena) điểm bắt đầu",
+      "(hint)_ - đi thẳng càng lâu càng tốt"
+    ],
+    [
+      "giết doedre,_maligaro,_shav",
+      "(img:quest) piety || giết malachai (lvl:34)",
+      "(img:portal) về areaid1_4_town ;; highgate"
+    ],
+    [
+      "(img:quest) dialla: <the_eternal_nightmare>",
+      "vào areaid1_4_7 ;; lối lên"
+    ],
+    [
+      "đi (img:0), theo (img:7) đường ray xe",
+      "tìm (img:quest) (quest:lever), vào areaid1_5_1 ;; chuồng nô lệ"
+    ]
+  ],
+  [
+    [
+      "tùy chọn: leaguestart: (color:cc99ff)5l_áo_giáp trong (color:ff00ff)breach encounter",
+      "theo mép (img:5), giết overseer",
+      "(hint)_ - tìm hành lang có giá treo cổ",
+      "(hint)_ - vòng theo chiều kim đồng hồ tới (img:arena) lối ra",
+      "vào areaid1_5_town (img:town) ;; tháp giám sát"
+    ],
+    [
+      "(img:quest) lani: <ring>",
+      "vào areaid1_5_2 ;; khu kiểm soát"
+    ],
+    [
+      "đi (img:7), tìm (img:quest) (quest:miasmeter)",
+      "đi (img:1), giết casticus lấy (quest:eyes)",
+      "đi (img:0), vào areaid1_5_3 ;; quảng trường oriath"
+    ],
+    [
+      "đi (img:1) tới (img:quest) areaid1_5_4 ;; sân đền"
+    ],
+    [
+      "vào  areaid1_5_5 (lvl:37) ;; phòng của innocence",
+      "(hint)_ - (img:arena) điểm bắt đầu & (img:arena) lối ra: ở góc kế bên2",
+      "(hint)_ - đi (img:1) tới sảnh chính, sau đó (img:5)"
+    ],
+    [
+      "theo mép (img:0), giết avarius",
+      "(hint)__ leaguestart: (img:craft): hành lang dọc mép (img:4)",
+      "(hint)__ khu vực exp cao, farm level: 40-42",
+      "dùng (img:arena), vào areaid1_5_4b ;; sân bị đốt",
+      "(hint)__ leaguestart: nói với (img:quest) bannon để ông ấy ở (img:town)"
+    ],
+    [
+      "vào areaid1_5_3b ;; quảng trường tàn phá",
+      "(hint)_ - (img:arena) điểm bắt đầu & (img:arena) lối ra: ở góc kế bên2",
+      "(hint)_ - đi (img:1) tới sảnh chính, sau đó (img:5)"
+    ],
+    [
+      "theo hẻm (img:5) tới (img:waypoint)",
+      "vào areaid1_5_6 ;; nhà xương"
+    ],
+    [
+      "tìm (img:quest) (quest:sign_of_purity)",
+      "(hint)__ khu vực: xoắn ốc (ngược) chiều kim đồng hồ",
+      "dùng (color:cc99ff)cần gạt, vào areaid1_5_3b ;; quảng trường tàn phá"
+    ],
+    [
+      "đi (img:5) tới đài phun nước, đặt (img:portal)",
+      "đi (img:4) tới areaid1_5_7 ;; nhà di vật"
+    ],
+    [
+      "tìm 3x (img:quest) (quest:torment) gần các góc",
+      "(hint)__ leaguestart: (img:craft) gần một trong các (img:quest) (quest:torments)",
+      "(img:waypoint) về areaid1_5_town (img:town) ;; tháp giám sát"
+    ],
+    [
+      "(img:quest) lani: (color:8787fe)flask_tiện_ích || <jewel> || (quest:book)",
+      "(img:quest) vilenta: (quest:book)",
+      "vào (img:portal) tới areaid1_5_3b ;; quảng trường tàn phá"
+    ],
+    [
+      "đi (img:7) tới areaid1_5_8 ;; mái nhà thờ"
+    ],
+    [
+      "đi (img:7), giết kitava",
+      "(img:quest) lilly: areaid2_6_town ;; vọng canh của lioneye"
+    ]
+  ],
+  [
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "nói với (img:quest) lilly",
+        "vào areaid2_6_2 ;; bờ biển"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(color:ff00ff)buy_gems tại (img:hideout) (color:fec076)your_hideout || lilly: <fallen_from_grace>  ;; chỉ hiện khi có pob import",
+        "vào areaid2_6_2 ;; bờ biển"
+      ]
+    },
+    [
+      "leaguestart: kích hoạt (img:waypoint)",
+      "vào areaid2_6_4 ;; bãi bùn"
+    ],
+    [
+      "đi (img:2), giết nữ hoàng lấy (quest:eye)",
+      "(hint)__ nếu chạm (color:cc99ff)mép_khu_vực, theo nó",
+      "đi (img:7), vào areaid2_6_5 ;; pháo đài karui",
+      "(hint)__ nếu (color:cc99ff)mép là bãi biển, đi (img:5) thay vì"
+    ],
+    [
+      "đi (img:1) tới (img:arena) (color:ffffff)_|| giết tukohama",
+      "đi (img:1) tới areaid2_6_6 ;; sườn núi"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "kích hoạt (img:waypoint)",
+        "tùy chọn: (img:quest) <belt/amu>: (img:waypoint) về areaid2_6_2 ;; bờ biển",
+        "(hint)__ tìm (img:quest) (quest:script) trong (img:arena) areaid2_6_3 ;; đảo thủy triều",
+        "(img:portal) về areaid2_6_town ;; vọng canh của lioneye"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "vào areaid2_6_1 ;; bờ hoàng hôn"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "tùy chọn: (color:cc99ff)5l_áo_giáp trong (color:ff00ff)breach encounter",
+        "giết mọi thứ",
+        "(color:cc99ff)relog: areaid2_6_town ;; vọng canh của lioneye"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) lilly: <fallen_from_grace>",
+        "tùy chọn: (img:quest) bestel: <belt/amu> cho (quest:manuscript)",
+        "(img:quest) tarkleigh: (quest:book) ;; tukohama",
+        "(img:waypoint) tới areaid2_6_6 ;; sườn núi"
+      ]
+    },
+    [
+      "kiểm tra vị trí (img:waypoint) so với (img:arena)",
+      "(hint)_ - nếu ở trên: đi xa (img:1), sau đó (img:7)",
+      "(hint)_ - nếu ở trái: đi xa (img:5), sau đó (img:7)",
+      "vào areaid2_6_7_1 ;; nhà tù dưới"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "vào areaid2_6_7_2 : ;; tháp shavronne"
+    ],
+    [
+      "giết shavronne_&_brutus",
+      "vào areaid2_6_8 ;; cổng tù nhân"
+    ],
+    [
+      "theo đường tới areaid2_6_9 ;; rừng phía tây"
+    ],
+    [
+      "theo đường tới areaid2_6_10 ;; con đường sông",
+      "(hint)__ leaguestart: (img:craft): theo đường phụ được đánh dấu bởi",
+      "(hint)__ leaguestart: ngọn đuốc trên đường"
+    ],
+    [
+      "theo đường, lấy (img:waypoint)",
+      "theo lối mòn giữa 2 cột",
+      "vào areaid2_6_11 ;; đầm lầy"
+    ],
+    [
+      "theo mép (img:6), giết ryslatha",
+      "(hint)__ hiếm: (img:arena) đấu trường có thể ở (img:1) thay vì",
+      "(img:portal) về areaid2_6_town ;; vọng canh của lioneye"
+    ],
+    [
+      "(img:waypoint) tới areaid2_6_8 ;; cổng tù nhân"
+    ],
+    [
+      "tìm mép gần đường",
+      "theo lối đi, giết abberath",
+      "(color:cc99ff)relog: areaid2_6_town ;; vọng canh của lioneye"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) bestel: (quest:book) ;; abberath",
+        "(img:quest) tarkleigh: <helmet> || (quest:book) ;; shav || ryslatha",
+        "(img:waypoint) tới areaid2_6_10 ;; con đường sông"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) bestel: (quest:book) ;; abberath",
+        "(img:quest) tarkleigh: (quest:book) || <helmet> || (quest:book) ;; tukohama || shav || ryslatha",
+        "(img:waypoint) tới areaid2_6_10 ;; con đường sông"
+      ]
+    },
+    [
+      "theo đường tới cuối",
+      "đi (img:3) tới areaid2_6_12 ;; rừng phía nam"
+    ],
+    [
+      "đi (img:2), sau đó theo vách đá (img:3)",
+      "vào areaid2_6_13 ;; hang cơn phẫn nộ"
+    ],
+    [
+      "lấy (img:quest) (quest:flag) || vào areaid2_6_14 ;; ngọn hải đăng"
+    ],
+    [
+      "đi (img:1) tới (img:quest) (quest:fuel_carts)",
+      "(hint)__ leaguestart: (img:craft): cầu thang dẫn tới xe",
+      "thắp sáng (img:quest) (quest:beacon), đốt (img:quest) (quest:flag)",
+      "(img:quest) weylam: areaid2_6_15 ;; rặng đá vua nước mặn"
+    ],
+    [
+      "giết tsoagoth: đi (img:5) từ (img:waypoint)",
+      "(hint)_ - bị chặn: đi xa (img:3). theo mép (img:2)",
+      "(hint)_ - mở: đi (img:5). theo mép trên",
+      "(img:portal) về areaid2_6_town ;; vọng canh của lioneye"
+    ],
+    [
+      "chọn pantheons",
+      "(img:waypoint) tới areaid2_7_town (img:town) ;; trại cầu"
+    ]
+  ],
+  [
+    [
+      "vào areaid2_7_1 ;; cầu gãy"
+    ],
+    [
+      "leaguestart: theo đường lên (img:waypoint) gãy",
+      "leaguestart: tìm (img:quest) (quest:locket) trong tàn tích gần đó",
+      "theo đường tới areaid2_7_2 ;; ngã tư"
+    ],
+    [
+      "theo đường, lấy (img:waypoint)",
+      "đi (img:3) tới areaid2_7_3 ;; tàn tích fellshrine"
+    ],
+    [
+      "theo đường tới areaid2_7_4 ;; hầm mộ"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "tìm (img:arena) quan tài & (img:quest) (quest:map)",
+      "(img:portal) về areaid2_7_town ;; trại cầu"
+    ],
+    [
+      "leaguestart: (img:quest) weylam: (color:8787fe)flask_tiện_ích",
+      "(img:waypoint) tới areaid2_7_2 ;; ngã tư"
+    ],
+    [
+      "đi (img:7) tới areaid2_7_5_1 ;; đền tội lỗi tầng 1"
+    ],
+    [
+      "lấy (img:waypoint) ở phòng trung tâm",
+      "dùng (quest:map) trong (img:quest) (quest:map_device)",
+      "vào areaid2_7_5_map ;; thánh đường maligaro"
+    ],
+    [
+      "giết maligaro lấy (quest:venom)",
+      "(hint)__ theo mép để tìm cầu",
+      "(img:portal) về areaid2_7_5_1 ;; đền tội lỗi tầng 1"
+    ],
+    [
+      "(img:quest) silk: (quest:obsidian_key)",
+      "vào areaid2_7_5_2 ;; đền tội lỗi tầng 2",
+      "(hint)__ (img:waypoint) chỉ tới lối ra"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "hoàn thành (img:lab) thử thách",
+        "(hint)__ đi (img:3) nếu có thể, không thì (img:6)",
+        "mở (img:quest) (color:cc99ff)lối_đi tới areaid2_7_6 ;; hang",
+        "(hint)__ thử xa (img:5) của (img:lab), không thì xa (img:1)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "tìm (img:lab) để định hướng:",
+        "(hint)__ đi (img:3) nếu có thể, không thì (img:6)",
+        "mở (img:quest) (color:cc99ff)lối_đi tới areaid2_7_6 ;; hang",
+        "(hint)__ thử xa (img:5) của (img:lab), không thì xa (img:1)"
+      ]
+    },
+    [
+      "vào areaid2_7_7 ;; cánh đồng tro tàn"
+    ],
+    [
+      "tùy chọn sớm: (img:lab) mê_cung_tàn_khốc",
+      "(hint)__ area-lvl 55 || tùy chọn 2 sau đó",
+      "theo đường (img:5), giết greust",
+      "vào areaid2_7_8 ;; rừng phía bắc"
+    ],
+    [
+      "đi (img:5), sau đó (img:7) dọc mép",
+      "(hint)__ đặt (img:portal) nếu tìm thấy (img:arena) bụi_rậm_kinh_khủng",
+      "vào areaid2_7_10 ;; đường nối"
+    ],
+    [
+      "đi (img:0) / (img:6) càng nhiều càng tốt",
+      "lấy (img:quest) (quest:star), vào areaid2_7_11 ;; thành phố vaal"
+    ],
+    [
+      "đi (img:7), (img:waypoint) về areaid2_7_town (img:town) ;; trại cầu",
+      "(hint)_ - (color:cc99ff)vách_đá? theo. đi vòng tường (img:1)",
+      "(hint)_ - không thì: tìm góc dài, đi vòng (img:6)"
+    ],
+    [
+      "(img:quest) weylam: (quest:book) ;; ngôi sao",
+      "(img:quest) eramir: (quest:book) ;; greust",
+      "leaguestart: (img:quest) helena: <boots> ;;maligaro",
+      "(img:waypoint) / (img:portal) tới areaid2_7_8 ;; rừng phía bắc"
+    ],
+    [
+      "tìm & vào areaid2_7_9 ;; bụi rậm kinh khủng",
+      "(hint)__ thường (img:5) của (img:waypoint), hoặc dọc mép (img:6)"
+    ],
+    [
+      "tìm (img:arena) hang, giết gruthkul",
+      "(hint)__ (img:4) hoặc (img:3) của (img:arena) điểm bắt đầu",
+      "(hint)__ leaguestart: (img:craft) ở hướng ngược lại",
+      "tìm 7x (img:quest) (quest:firefly)",
+      "(img:portal) về areaid2_7_town ;; trại cầu"
+    ],
+    [
+      "(img:quest) eramir: (quest:book) ;; gruthkul",
+      "tùy chọn thường: (img:lab) mê_cung_tàn_khốc",
+      "(img:waypoint) tới areaid2_7_11 ;; thành phố vaal"
+    ],
+    [
+      "nói với (img:quest) yeena",
+      "vào areaid2_7_12_1 ;; đền suy tàn tầng 1"
+    ],
+    [
+      "vào areaid2_7_12_2 ;; đền suy tàn tầng 2",
+      "(hint)_ - tầng 1: di chuyển chéo",
+      "(hint)_ - tầng 2: mô hình z (xoay)"
+    ],
+    [
+      "tìm & giết arakaali",
+      "(hint)_ - tầng 1+2: mô hình z (xoay)",
+      "(hint)_ - leaguestart: (img:craft) ở trung tâm tầng 2",
+      "(hint)_ - tầng 3: theo mép (img:0)",
+      "vào areaid2_8_1 ;; thành lũy sarn"
+    ]
+  ],
+  [
+    [
+      "đi (img:2), sau đó theo tường",
+      "vào areaid2_8_town ;; trại sarn"
+    ],
+    [
+      "đi (img:6) tới areaid2_8_2_1 ;; ống dẫn độc"
+    ],
+    [
+      "vào areaid2_8_2_2 ;; hầm cầu doedre",
+      "(hint)_ - khu vực bắt đầu: vòng với 1 lối ra",
+      "(hint)_ - sau đó: đi (img:1) càng nhiều càng tốt"
+    ],
+    [
+      "tìm & giết giết doedre",
+      "(hint)__ thử: xa (img:5), xa (img:3), hoặc xa (img:1)",
+      "sau (img:waypoint), đi (img:2) tới areaid2_8_8 ;; bến tàu",
+      "(hint)__ leaguestart: (img:craft) gần waypoint"
+    ],
+    [
+      "theo nước, tìm (img:quest) (quest:ankh)",
+      "tìm xa (img:4) cho (img:arena) địa_điểm_cư_trú",
+      "(hint)__ (img:quest) clarissa || giết tolman",
+      "đi xa (img:2) tới areaid2_8_9 ;; cổng ngũ cốc"
+    ],
+    [
+      "theo (color:aqua)lính_gác_chết tới (color:cc99ff)khu_vực kế tiếp",
+      "tìm/mở lưới ẩn: (color:red)đừng_vào",
+      "giết gemling_legion (gần biểu tượng (img:help))",
+      "(hint)__ trong cùng hoặc kế (color:aqua)lính_gác_chết (color:cc99ff)khu_vực",
+      "vào (img:arena) (color:aqua)lưới tới areaid2_8_14 ;; dưới bụng ẩn"
+    ],
+    [
+      "theo tường (img:6) tới (color:cc99ff)ngã_ba",
+      "đặt (img:portal), tiếp tục theo tường",
+      "vào areaid2_8_11 ;; khu vực solaris"
+    ],
+    [
+      "vào areaid2_8_12_1 ;; đền solaris tầng 1",
+      "(hint)__ tìm mép xa (img:0), hoặc",
+      "(hint)__ theo kênh ngược dòng"
+    ],
+    [
+      "theo mép (img:0), lấy (img:waypoint)",
+      "(img:waypoint) về areaid2_8_town (img:town) ;; trại sarn"
+    ],
+    [
+      "vào (img:portal) tới areaid2_8_14 ;; dưới bụng ẩn",
+      "đường thứ 3 dẫn tới areaid2_8_5 ;; nhà tắm"
+    ],
+    [
+      "đặt (img:portal) trước phòng",
+      "đi (img:2) tới areaid2_8_6 ;; khu vực lunaris"
+    ],
+    [
+      "đi (img:1), kích hoạt (img:waypoint)",
+      "(img:waypoint) về areaid2_8_town (img:town) ;; trại sarn"
+    ],
+    [
+      "vào (img:portal) tới areaid2_8_5 ;; nhà tắm"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "hoàn thành (img:lab) || vào areaid2_8_4 ;; vườn cao",
+        "(hint)_ - kiểm tra góc khu vực (img:6) / (img:7) / (img:0)",
+        "(hint)_ - lưu ý: (img:arena) lối ra bạn dùng là góc (img:2)"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "tìm & vào areaid2_8_4 ;; vườn cao",
+        "(hint)_ - kiểm tra góc khu vực (img:6) / (img:7) / (img:0)",
+        "(hint)_ - lưu ý: (img:arena) lối ra bạn dùng là góc (img:2)"
+      ]
+    },
+    [
+      "tìm (img:arena) đấu trường, giết yugul",
+      "(color:cc99ff)relog: areaid2_8_town ;; trại sarn"
+    ],
+    [
+      "(img:quest) maramoa: (quest:book) ;; gemling legion",
+      "(img:quest) hargan: <ring> || (quest:book) ;; doedre, yugul",
+      "(img:quest) clarissa: (quest:book) ;; tolman",
+      "(img:waypoint) tới areaid2_8_12_1 ;; đền solaris tầng 1"
+    ],
+    [
+      "đi (img:7) tới areaid2_8_12_2 ;; đền solaris tầng 2"
+    ],
+    [
+      "giết dawn lấy (quest:sun_orb)",
+      "(hint)__ theo mép trên",
+      "(hint)__ leaguestart: (img:craft): phía xa của đấu trường",
+      "(img:portal) về areaid2_8_town ;; trại sarn"
+    ],
+    [
+      "(img:waypoint) tới areaid2_8_6 ;; khu vực lunaris"
+    ],
+    [
+      "đi (img:7) tới areaid2_8_7_1_ ;; đền lunaris tầng 1"
+    ],
+    [
+      "vào areaid2_8_7_2 ;; đền lunaris tầng 2",
+      "(hint)_ - (color:cc99ff)hành_lang ban đầu chỉ (img:7) hoặc (img:1)",
+      "(hint)_ - theo thảm + hướng đó"
+    ],
+    [
+      "giết dusk lấy (quest:moon_orb)",
+      "(hint)_ - theo (color:cc99ff)3_cầu_thang_lên + 1 chậu hoa",
+      "(hint)_ - (color:cc99ff)2_cổng_lớn dẫn tới đấu trường",
+      "(hint)_ - leaguestart: (img:craft): phía xa của đấu trường",
+      "(img:portal) về areaid2_8_town ;; trại sarn"
+    ],
+    [
+      "(img:waypoint) tới areaid2_8_6 ;; khu vực lunaris",
+      "đi (img:3) tới areaid2_8_13 ;; cầu cảng"
+    ],
+    [
+      "đi (img:1) tới (img:arena) đền (lvl:54+)",
+      "giết solaris_&_lunaris",
+      "vào areaid2_9_1 ;; cống nước máu"
+    ]
+  ],
+  [
+    [
+      "farm level: 58-62",
+      "vào areaid2_9_town (img:town) ;; highgate",
+      "vào areaid2_9_2 ;; sự xuống dốc"
+    ],
+    [
+      "tìm & vào areaid2_9_3 ;; sa mạc vastiri",
+      "(hint)__ phần 1: đi (img:1) || còn lại: tuyến tính"
+    ],
+    [
+      "đi (img:2), kích hoạt (img:waypoint)",
+      "tìm (img:quest) (quest:chest) (vòng tròn cột)",
+      "(hint)__ thường gần (img:waypoint), hoặc xa (img:5) của nó",
+      "đi (img:0) tới areaid2_9_5 ;; chân đồi"
+    ],
+    [
+      "đi (img:1), kích hoạt (img:waypoint)",
+      "vào areaid2_9_6 ;; hồ sôi"
+    ],
+    [
+      "đi (img:1), giết basilisk lấy (quest:acid)",
+      "(color:cc99ff)relog: areaid2_9_town ;; highgate"
+    ],
+    [
+      "(img:quest) petarus: <weapon/offhand>",
+      "nói với (img:quest) sin",
+      "(img:quest) petarus: (quest:bottled_storm)",
+      "(img:waypoint) tới areaid2_9_3 ;; sa mạc vastiri"
+    ],
+    [
+      "đi (img:1) tới areaid2_9_4 ;; ốc đảo"
+    ],
+    [
+      "tìm (img:arena) hố_cát, giết shakari",
+      "(hint)__ tìm dọc mép (img:2)",
+      "(color:cc99ff)relog: areaid2_9_town ;; highgate"
+    ],
+    [
+      "(img:quest) irasha: (quest:book)",
+      "(img:waypoint) tới areaid2_9_5 ;; chân đồi"
+    ],
+    [
+      "tùy chọn: (img:quest) <respec_points>",
+      "(hint)__ giết boulderback (color:lime)(lịch)",
+      "đi (img:7) tới areaid2_9_7 ;; đường hầm"
+    ],
+    [
+      "leaguestart: hoàn thành (img:lab) thử thách",
+      "(hint)__ trong đường phụ có biểu tượng (img:help)",
+      "vào areaid2_9_8 ;; mỏ đá"
+    ],
+    [
+      "đi (img:7) lấy (img:waypoint) _|| tìm (img:1) cho (img:arena) lối ra",
+      "nếu (img:arena) đền: giết garukhan lấy (quest:feather)",
+      "(hint)__ sau đó đi (img:6) dọc mép tới (img:arena) nhà_máy_lọc",
+      "không thì, vào areaid2_9_9 ;; nhà máy lọc"
+    ],
+    [
+      "đi (img:7), sau đó (img:1) tới biểu tượng (img:quest)",
+      "(hint)__ (img:craft): đường ray xe kết thúc ở lưới",
+      "giết adus lấy (img:quest) (quest:powder)",
+      "(color:cc99ff)relog: areaid2_9_town ;; highgate"
+    ],
+    [
+      "(quest:feather)? (img:quest) irasha: (quest:book)",
+      "tùy chọn: (quest:calendar)? (img:quest) petarus: <respecs>",
+      "(img:waypoint) tới areaid2_9_8 ;; mỏ đá"
+    ],
+    [
+      "nói với (img:quest) sin",
+      "nếu chưa tìm thấy (quest:feather):",
+      "(hint)_ - tìm (img:6) / (img:5) cho (img:arena) đền",
+      "(hint)_ - giết garukhan || (color:cc99ff)relog: (img:quest) irasha",
+      "vào areaid2_9_10_1 ;; bụng quái vật"
+    ],
+    [
+      "đi (img:4), kiểm tra chặn phía đông:",
+      "(hint)_ - nếu bị chặn: đi (img:6), sau đó (img:1)",
+      "(hint)_ - không thì: đi (img:6) bất cứ khi nào có thể",
+      "vào areaid2_9_10_2 ;; lõi thối rữa"
+    ],
+    [
+      "đi đường 2 (img:0) tới (img:arena) lõi_đen",
+      "(img:quest) sin || dọn (color:cc99ff)3_khu_vực_phụ || (img:quest) sin",
+      "giết trinity || (img:quest) lilly: areaid2_10_town ;; bến cảng oriath"
+    ]
+  ],
+  [
+    [
+      "vào areaid2_10_1 ;; mái nhà thờ"
+    ],
+    [
+      "đi (img:0) tới (img:arena) đỉnh, giết plaguewing",
+      "đi (img:3) tới areaid2_10_2 ;; quảng trường tàn phá"
+    ],
+    [
+      "đi (img:3) tới đài phun nước, đặt (img:portal)",
+      "đi (img:2) tới cầu, theo hẻm (img:0)",
+      "lấy (img:waypoint) || đi (img:3) tới areaid2_10_3 ;; sân bị đốt"
+    ],
+    [
+      "vào areaid2_10_4 ;; phòng bị báng bổ",
+      "(hint)__ - (img:arena) điểm bắt đầu & (img:arena) lối ra: ở góc kế bên2",
+      "(hint)__ - đi (img:1) tới sảnh chính, sau đó (img:5)"
+    ],
+    [
+      "theo mép (img:0), giết avarius",
+      "(hint)__ leaguestart: (img:craft): hành lang dọc mép (img:4)",
+      "(img:quest) (quest:staff) || (img:waypoint) về areaid2_10_town ;; bến cảng oriath"
+    ],
+    [
+      "nói với (img:quest) bannon",
+      "vào (img:portal) tới areaid2_10_2 ;; quảng trường tàn phá"
+    ],
+    [
+      "đi (img:5) tới areaid2_10_7 ;; khu kiểm soát"
+    ],
+    [
+      "đi xa (img:6), giết vilenta",
+      "(img:portal) về areaid2_10_town ;; bến cảng oriath"
+    ],
+    {
+      "condition": [
+        "league-start",
+        "no"
+      ],
+      "lines": [
+        "(img:quest) lani: (color:8787fe)flask || <armor> || (quest:book) ;; plaguewing || avarius || vilenta",
+        "hoàn thành (img:lab) mê_cung_tàn_nhẫn",
+        "(img:waypoint) tới areaid2_10_2 ;; quảng trường tàn phá"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(img:quest) lani: (color:8787fe)flask || <armor> || (quest:book) ;; plaguewing || avarius || vilenta",
+        "(img:waypoint) areaid2_10_2 ;; quảng trường tàn phá"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "vào areaid2_10_9 ;; nhà xương"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "theo mép, hoàn thành (img:lab) thử thách",
+        "(hint)_ - (img:lab) ở (img:0) của (img:quest) (quest:elixir) (tùy chọn: <2_respecs>)",
+        "(hint)_ - (img:craft) cũng gần (img:quest) (quest:elixir)",
+        "(color:cc99ff)relog: areaid2_10_town ;; bến cảng oriath"
+      ]
+    },
+    {
+      "condition": [
+        "league-start",
+        "yes"
+      ],
+      "lines": [
+        "(quest:elixir)? (img:quest) weylam: <respecs>",
+        "hoàn thành (img:lab) mê_cung_tàn_nhẫn",
+        "(img:waypoint) tới areaid2_10_2 ;; quảng trường tàn phá"
+      ]
+    },
+    [
+      "nói với (img:quest) innocence",
+      "vào areaid2_10_5 ;; kênh rạch"
+    ],
+    [
+      "theo khu vực (img:7)",
+      "vào areaid2_10_6 ;; máng ăn"
+    ],
+    [
+      "đi (img:7) || (img:quest) sin || giết kitava",
+      "(img:quest) sin || vào areaid2_10_town ;; bến cảng oriath"
+    ],
+    [
+      "(img:quest) lani: (quest:book)",
+      "(img:quest) lilly: areaid2_11_endgame_town ;; bờ biển karui"
+    ],
+    [
+      "leaguestart: lấy (img:craft) || nói với (img:quest) kirac",
+      "<gõ_\"/passives\"_trong_chat>",
+      "<hướng_dẫn_theo_dõi_act_kết_thúc_tại_đây>"
+    ]
+  ]
+]
